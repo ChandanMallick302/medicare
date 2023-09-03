@@ -1,0 +1,46 @@
+table {
+    width: 100%;
+    height: 100%;
+}
+
+.quantity-btn-add{
+    font-size:xx-large;
+    color: green;
+    cursor: pointer;   
+}
+
+.quantity-btn-minus {
+    font-size: xx-large;
+    letter-spacing: -3px;
+    color: red;
+    cursor: pointer;
+}
+
+.quantity_number{
+    font-size: x-large;
+    text-align: center;
+}
+
+.mat-stepper-horizontal {
+    margin-top: 8px;
+}
+
+.mat-form-field {
+    margin-top: 16px;
+}
+
+.example-container {
+    height: 270px;
+    overflow: auto;
+}
+
+tr.mat-footer-row {
+    font-weight: bold;
+}
+
+.mat-table-sticky {
+    border-top: 1px solid #e0e0e0;
+}
+
+
+

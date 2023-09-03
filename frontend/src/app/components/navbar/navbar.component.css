@@ -1,0 +1,79 @@
+.nav-spacer {
+    flex: 1 1 auto;
+}
+
+.app-title-color {
+    color: #00C853;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+    font-display: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    background: #3F51B5;
+}
+
+.dashboard{
+    color: #00C853;
+}
+
+.search-box{
+    background-color: white;
+}
+
+input{
+   border: 0.5px solid #3F51B5;
+   flex: 1;
+   border-right: 0px;
+   font-family: Roboto, "Helvetica Neue",sans-serif;
+   font-size: small;
+   border-radius: 10px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   height: 40px;
+   outline: none;
+   width: 100%;
+   
+}
+
+input:focus{
+    border: 0.5px solid #3F51B5;
+    flex: 1;
+    border-right: 0px solid white;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: small;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 40px;
+    outline: none;
+}
+
+.search-btn{
+    height: 40px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: white;
+    border: 0.5px solid #3F51B5;
+    border-left: 0px solid white;
+}
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    transition: 0.2s linear;
+    top: 0px;
+    left: 0px;
+    
+}
+
+ .navbar-nav-scroll{
+    --bs-scroll-height: 100px;
+ }
+
+
+
+

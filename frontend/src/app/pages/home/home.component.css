@@ -1,0 +1,50 @@
+
+mat-card{
+    border: 1.5px solid grey;
+    border-radius: 15px;
+}
+
+
+
+.categories{
+    border: 1.5px solid grey;
+    background: white;
+}
+
+.discount{
+ color: green;
+}
+
+.no-discount {
+    color: white;
+}
+
+.menu{
+    border-bottom: 1px solid lightgrey;
+}
+
+.cart{
+    color: green;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.cat-btn{
+    
+    color: white;
+    outline: none;
+    border: none;
+    background-color: #757ce8 ;
+
+}
+
+.empty-space{
+    color: white;
+}
+
+.all-cat{
+    
+    font-size: large;
+}
